@@ -1,0 +1,95 @@
+.sidebar{
+    flex: 1.5;
+    border-right: 0.5px solid rgb(218, 217, 217);
+    min-height: 100vh;
+    padding-left: 15px;
+
+    .top{
+        height: 50px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+
+
+        .logo{
+            font-size: 20px;
+            font-weight: bold;
+            color:#0092D1;
+    
+        }
+    }
+
+    hr{
+        height: 0;
+        border: 0.5px solid rgb(218, 217, 217);
+    }
+
+    .center{
+        
+
+        ul{
+            list-style: none;
+            margin: 0;
+            padding: 0;
+
+            .title{
+                font-size: 14px;
+                font-weight: bold;
+                color: #0092D1;
+                margin-top: 15px;
+                margin-bottom: 5px;
+                padding-left: 4px;
+            }
+
+            li{
+                display: flex;
+                align-items: center;
+                padding: 5px;
+                cursor: pointer;
+
+                &:hover{
+                    background-color: rgb(145, 255, 0);
+                }
+
+                .icon{
+                    color: black;
+                    font-size: 25px;
+                }
+
+                span{
+                    font-weight: 600;
+                    font-size: 15px;
+                    color: gray;
+                    margin-left: 10px;
+                }
+                
+            }
+        }
+    }
+
+    .bottom{
+        display: flex;
+        align-items: center;
+        margin: 10px;
+
+        .colorOption{
+            width: 20px;
+            height: 20px;
+            border-radius: 5px;
+            border: 1px solid #0092D1;
+            cursor: pointer;
+
+            &:nth-child(1){
+                background-color: whitesmoke;
+                margin: 5px;
+            }
+
+            &:nth-child(2){
+                background-color: black;
+                margin:5px;
+            }
+        }
+
+    }
+    
+}
