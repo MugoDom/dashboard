@@ -1,0 +1,63 @@
+.bg-image {
+  background-image: url(https://www.workspace.co.uk/media/properties/the%20leather%20market/workspace-15.jpg?width=1200&height=630&mode=crop&format=jpeg&quality=60&v=202207051736);
+  background-repeat: cover;
+  /* background: radial-gradient(120% 40rem at 10% 100px, 205%, transparent 75%) no-repeat; */
+  background-size: 100%;
+  border-bottom-right-radius: 40%;
+  position: absolute;
+  width: 79.3%;
+  height: 78.6%;
+  z-index: -150;
+  overflow: hidden;
+}
+
+.bg-container{
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+  z-index: -100;
+  opacity: 85%;
+  background: radial-gradient(120% 40rem at 10% 200px, #4ac4f3 205%, transparent 75%) no-repeat;
+}
+
+.icons{
+  display: flex;
+  margin-left: 5rem;
+  width: fit-content;
+}
+
+.icons >button {
+  margin-left: 8rem;
+  padding: 1.2rem;
+  border: none;
+  border-radius: 0.6rem;
+  font-size: large;
+}
+
+.icons > i {
+  color: white;
+}
+
+.gis-img {
+  width: 20%; 
+  position: absolute;
+  z-index: 5;
+  bottom: 20%;
+  left: 60%;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .gis-img {
+    animation: App-logo-spin infinite 20s linear normal;
+  }
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}

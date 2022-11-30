@@ -54,7 +54,7 @@ const Sidebar = () => {
                     </li>
                     <li>
                         <PublicOutlinedIcon className="icon" />
-                        <NavLink exact to={'/'} style={linkStyles}><strong className='nav-link'>Dashboard</strong></NavLink>
+                        <NavLink exact to={'/zambia'} style={linkStyles}><strong className='nav-link'>Zambia</strong></NavLink>
                     </li>
                     <li>
                         <PublicOutlinedIcon className="icon" />
