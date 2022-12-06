@@ -26,7 +26,7 @@ const Home = () => {
             <i class="fa-sharp fa-solid fa-4x fa-circle-play"></i>
             <button>Download</button>
           </div> 
-          <img src='https://www.freepnglogos.com/uploads/globe-png/blue-globe-transparent-sporetesting-39.png' alt='Globe' className='gis-img' />
+          <div className='globe' />
         </div>
       </div>
       

@@ -39,25 +39,28 @@
   color: white;
 }
 
-.gis-img {
-  width: 20%; 
+.globe {
+  width: 15%; 
+  height: 25%;
+  background: url(https://1.bp.blogspot.com/-UUXaK5GCj-k/UcsKJRMgkVI/AAAAAAAACfM/sePP_H08JTQ/s1600/1.jpg);
+  border-radius: 100%;
+  background-size: 380px;
   position: absolute;
   z-index: 5;
-  bottom: 20%;
-  left: 60%;
+  bottom: 25%;
+  left: 65%;
+  animation: spin 3.5s infinite linear;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .gis-img {
-    animation: App-logo-spin infinite 20s linear normal;
+
+
+
+@keyframes spin {
+  0%{
+    background-position-x: 0
   }
+100% {
+  background-position-x: 380px
+}
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
-}
