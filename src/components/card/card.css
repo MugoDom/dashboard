@@ -1,0 +1,21 @@
+.card {
+  width: 35%;
+  border: solid #0000FF 2px;
+  background-color: #F9F9F9;
+  border-radius: 2rem;
+  padding: 2rem;
+  line-height: 2rem;
+}
+
+h2 {
+  text-align: center;
+  margin-bottom: 1rem;
+}
+
+.body {
+  margin-top: 1rem;
+}
+
+.card:hover {
+  transform: scale(0.9, 0.9);
+}
