@@ -21,6 +21,7 @@
     "sass": "^1.52.3",
     "styled-components": "^5.3.5",
     "three": "^0.144.0",
+    "recharts": "^2.1.16",
     "web-vitals": "^2.1.4"
   },
   "scripts": {

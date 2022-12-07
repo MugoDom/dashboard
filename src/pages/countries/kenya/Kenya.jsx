@@ -5,6 +5,7 @@ import Navbar from '../../../components/navbar/Navbar';
 import Sidebar from '../../../components/sidebar/Sidebar';
 import RenderMap from '../../../components/map/RenderMap';
 import Card from '../../../components/card/Card';
+import Chart from '../../../components/pie-chart/Chart';
 
 const Kenya = () => {
   return (
@@ -18,6 +19,9 @@ const Kenya = () => {
             <RenderMap />
           </div>
           <Card />
+        </div>
+        <div className='second-row'>
+          <Chart />
         </div>
       </div>
     </div>
