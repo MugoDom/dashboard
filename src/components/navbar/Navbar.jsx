@@ -14,7 +14,7 @@ const Navbar = () => {
         <div className="items">
           <div className="item">
             <LanguageOutlinedIcon className="icon"/>
-            English
+            French
           </div>
           <div className="item">
             <FullscreenOutlinedIcon className="icon"/>

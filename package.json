@@ -3,10 +3,10 @@
   "version": "0.1.0",
   "private": true,
   "dependencies": {
-    "@emotion/react": "^11.9.3",
-    "@emotion/styled": "^11.9.3",
+    "@emotion/react": "^11.10.5",
+    "@emotion/styled": "^11.10.5",
     "@mui/icons-material": "^5.8.4",
-    "@mui/material": "^5.8.4",
+    "@mui/material": "^5.11.4",
     "@mui/styled-engine-sc": "^5.8.0",
     "@testing-library/jest-dom": "^5.16.4",
     "@testing-library/react": "^13.3.0",
@@ -18,10 +18,10 @@
     "react-leaflet": "^4.2.0",
     "react-router-dom": "^6.3.0",
     "react-scripts": "5.0.1",
+    "recharts": "^2.1.16",
     "sass": "^1.52.3",
     "styled-components": "^5.3.5",
     "three": "^0.144.0",
-    "recharts": "^2.1.16",
     "web-vitals": "^2.1.4"
   },
   "scripts": {

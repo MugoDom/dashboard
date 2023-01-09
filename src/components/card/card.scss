@@ -5,17 +5,14 @@
   border-radius: 2rem;
   padding: 2rem;
   line-height: 2rem;
-}
+  margin-left: 20px;
 
-h2 {
-  text-align: center;
-  margin-bottom: 1rem;
-}
+  .body {
+    margin-top: 1rem;
+  }
 
-.body {
-  margin-top: 1rem;
-}
-
-.card:hover {
-  transform: scale(0.9, 0.9);
+  .h2 {
+    text-align: center;
+    margin-bottom: 1rem;
+  }
 }

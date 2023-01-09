@@ -1,9 +1,8 @@
 .bg-image {
-  background-image: url(https://www.workspace.co.uk/media/properties/the%20leather%20market/workspace-15.jpg?width=1200&height=630&mode=crop&format=jpeg&quality=60&v=202207051736);
+  background-image: url('/public/assets/Team.jpeg');
   background-repeat: cover;
-  background: radial-gradient(120% 40rem at 10% 100px, 205%, transparent 75%) no-repeat;
   background-size: 100%;
-  border-bottom-right-radius: 40%;
+  border-bottom-right-radius: 10%;
   position: absolute;
   width: 79.3%;
   height: 78.6%;
@@ -11,23 +10,23 @@
   overflow: hidden;
 }
 
-.bg-container{
+.bg-container {
   position: absolute;
   width: 100%;
   height: 100%;
   overflow: hidden;
   z-index: -100;
   opacity: 85%;
-  background: radial-gradient(120% 40rem at 10% 200px, #4ac4f3 205%, transparent 75%) no-repeat;
+  background: radial-gradient(200% 40rem at 10% 200px, #0092D1 205%, transparent 75%) no-repeat;
 }
 
-.icons{
+.icons {
   display: flex;
   margin-left: 5rem;
   width: fit-content;
 }
 
-.icons >button {
+.icons>button {
   margin-left: 8rem;
   padding: 1.2rem;
   border: none;
@@ -35,12 +34,12 @@
   font-size: large;
 }
 
-.icons > i {
+.icons>i {
   color: white;
 }
 
 .globe {
-  width: 15%; 
+  width: 15%;
   height: 25%;
   background: url(https://1.bp.blogspot.com/-UUXaK5GCj-k/UcsKJRMgkVI/AAAAAAAACfM/sePP_H08JTQ/s1600/1.jpg);
   border-radius: 100%;
@@ -56,11 +55,11 @@
 
 
 @keyframes spin {
-  0%{
+  0% {
     background-position-x: 0
   }
-100% {
-  background-position-x: 380px
-}
-}
 
+  100% {
+    background-position-x: 380px
+  }
+}

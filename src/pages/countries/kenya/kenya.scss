@@ -1,14 +1,22 @@
 .kenya {
   display: flex;
+
   .kenya-container {
     flex: 6;
-    .first-row{
+
+    .description {
+      margin: 10px;
+    }
+
+    .first-row {
       display: flex;
       /* justify-content: space-evenly; */
       margin: 1rem 4rem 2rem 4rem;
-      .map{
+
+      .map {
         flex: content;
       }
+
     }
   }
 }

@@ -3,11 +3,11 @@ import { PieChart, Pie, Sector, Cell } from 'recharts';
 import './chart.css'
 
 const data = [
-  { name: 'Civil Engineers', value: 10 },
-  { name: 'GIS Specialists', value: 3 },
-  { name: 'Architects', value: 12 },
-  { name: 'Mechanical Engineers', value: 7 },
-  { name: 'Quantity Surveyors', value: 9 },
+  { name: 'Civil Engineers', value: 6 },
+  { name: 'GIS Specialists', value: 2 },
+  { name: 'Architects', value: 4 },
+  { name: 'Mechanical Engineers', value: 5 },
+  { name: 'Quantity Surveyors', value: 4 },
 ];
 
 const COLORS = ['#0088FE', '#00C49F', '#FFBB28', '#FF8042', '#FF0000'];

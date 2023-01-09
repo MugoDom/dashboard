@@ -3,7 +3,7 @@ import { useRef } from 'react';
 import { MapContainer, TileLayer, Polygon } from 'react-leaflet'
 import osm from './Osm-providers';
 import "leaflet/dist/leaflet.css";
-import './Map.css';
+import './Map.scss';
 import {} from './Data'
 
 function RenderMap() {
@@ -13,8 +13,8 @@ function RenderMap() {
 
 
   return (
-    <div className='leaftlet-container' >
-      <p>Loading map using basic layer from map tiler</p>
+    <div className='leaflet-container' >
+      <h1>Kenya</h1>
       <MapContainer
         center={center}
         zoom={ZOOM_LEVEL}
