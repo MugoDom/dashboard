@@ -3,6 +3,7 @@
     border-right: 0.5px solid rgb(218, 217, 217);
     min-height: 100vh;
     padding-left: 15px;
+    width: 20%;
 
     .top{
         height: 50px;
@@ -56,11 +57,12 @@
                     font-size: 25px;
                 }
 
-                span{
+                .nav-link{
                     font-weight: 600;
                     font-size: 15px;
                     color: gray;
                     margin-left: 10px;
+                    text-decoration: none;
                 }
                 
             }
