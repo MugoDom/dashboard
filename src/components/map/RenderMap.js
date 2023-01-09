@@ -1,9 +1,10 @@
 import React, { useState } from 'react'
 import { useRef } from 'react';
-import { MapContainer, TileLayer } from 'react-leaflet'
+import { MapContainer, TileLayer, Polygon } from 'react-leaflet'
 import osm from './Osm-providers';
 import "leaflet/dist/leaflet.css";
-import './Map.css'
+import './Map.css';
+import {} from './Data'
 
 function RenderMap() {
   const [center, setCenter] = useState({lat: 0.0236, lng: 37.9062});

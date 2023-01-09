@@ -26,7 +26,7 @@ const Home = () => {
             <i class="fa-sharp fa-solid fa-4x fa-circle-play"></i>
             <button>Download</button>
           </div> 
-          <div className='globe' />
+          {/* <div className='globe' /> */}
         </div>
       </div>
       

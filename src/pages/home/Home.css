@@ -1,7 +1,7 @@
 .bg-image {
   background-image: url(https://www.workspace.co.uk/media/properties/the%20leather%20market/workspace-15.jpg?width=1200&height=630&mode=crop&format=jpeg&quality=60&v=202207051736);
   background-repeat: cover;
-  /* background: radial-gradient(120% 40rem at 10% 100px, 205%, transparent 75%) no-repeat; */
+  background: radial-gradient(120% 40rem at 10% 100px, 205%, transparent 75%) no-repeat;
   background-size: 100%;
   border-bottom-right-radius: 40%;
   position: absolute;
